@@ -1,0 +1,14 @@
+h2{
+    color:blue;
+    font-family:'Franklin Gothic Medium'
+}
+.bg-yellow {
+    background-color: yellow;
+    padding: 100px;
+}
+#header {
+    background: grey;
+}
+input[type="text"]{
+    background: yellow;
+}
