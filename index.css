@@ -22,9 +22,9 @@ header {
     padding: 10px 50px;
     background-color: #322F36;
     position: fixed;
-    width: 1155px;
+    width: 1144px;
     height: auto;
-    margin: 5px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.19);
     -webkit-box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.19);
