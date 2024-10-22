@@ -75,7 +75,7 @@ header {
 }
 .box-2{
     width: 50%;
-    color: #fbe9d0;
+    color: #ffffff;
 }
 .box-2 h1 span{
     color: #88b4ff;
@@ -319,6 +319,8 @@ button {
 footer{
     padding: 10px 50px;
     background-color: #322F36;
+    margin: 1px;
+    border-radius: 10px;
 }
 .atas{
     display: flex;
