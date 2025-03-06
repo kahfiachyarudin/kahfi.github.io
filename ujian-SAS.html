@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian SAS Genap</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+    body { 
+        background-color: rgb(158, 158, 158);
+        
+    }
+    .container {
+        background-color: rgb(63, 63, 63);
+        height: 560px;
+        width: 30%;
+        color: white;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        box-shadow: 0px 0px 27px -9px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 27px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 27px -9px rgba(0,0,0,0.75);
+        transition: all 0.5s ease-out;
+        filter: blur(0.3px);
+    }
+    img {
+        width: auto;
+        height: 270px;
+        border-radius: 10px;
+    }
+    .keranjang{
+        background: rgb(0,123,255);
+        background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(0,86,179,1) 100%);
+        color: white;
+        border: 0px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        transition: all 0.5s ease-out;
+        width: 200px;
+        height: 40px;
+    }
+    .container:hover{
+        box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.75);
+    }
+    .keranjang:hover{
+        width: 220px;
+        height: 45px;
+        font-size: 15px;box-shadow: 0px 0px 28px 1px rgba(0,123,255,0.75);
+        -webkit-box-shadow: 0px 0px 28px 1px rgba(0,123,255,0.75);
+        -moz-box-shadow: 0px 0px 28px 1px rgba(0,123,255,0.75);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="/image/sepatu.avif" alt="" class="gambar">
+        </div>
+        <div class="isi">
+            <h2 class="title">Produk premium</h2>
+            <h4>Rp 250.000</h4>
+            <p class="deskripsi">
+                produk premium dengan kualitas terbaik, nyaman digunakan, dan desain elegan. Cocok untuk segala kebutuhan Anda.
+            </p>
+            <button class="keranjang" onclick="tambahKeranjang()"> 🛒 Tambahkan ke keranjang</button>
+        </div>
+    </div>
+</body>
+<script>
+    function tambahKeranjang(){
+        alert( "Produk berhasil ditambahkan ke keranjang! 🛒" );
+    }
+</script>
+</html>
